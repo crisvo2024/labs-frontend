@@ -83,7 +83,7 @@
         event.preventDefault( );
       },
       buildURI( ){
-        let associatePath = "/registro/nuevo-rol/";
+        let associatePath = "/principal/nuevo-rol/";
         return this.$store.state.backURL + associatePath + this.role;
       }
     }
