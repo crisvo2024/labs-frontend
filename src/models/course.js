@@ -1,10 +1,9 @@
 export default class Course{
-    constructor(id,courseName,durationHours,grade,periodName,roleId) {
+    constructor(id, courseName, durationHours, periodName, roleId) {
         this.id=id;
-        this.courseName = courseName;
-        this.durationHours = durationHours;
-        this.grade = grade;
-        this.periodName = periodName;
-        this.roleId = roleId;
+        this.course.courseName = courseName;
+        this.course.durationHours = durationHours;
+        this.period.periodName = periodName;
+        this.role.id = roleId;
     }
 }
